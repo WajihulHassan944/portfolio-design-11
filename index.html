@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anyanarayan</title>
+    <title>Anya Narayan</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap">
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
+ <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   
+   <style>
         body {
             font-family: helvetica, sans-serif;
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
         }
 		nav{
 			display:flex;
@@ -123,9 +129,9 @@
 
 
 
-<nav>
+<nav data-aos="zoom-in">
 
-<h1>Anyanarayan</h1>
+<h1>Anya Narayan</h1>
 <div class="nav-buttons">
 <a>Home</a>
 <a>About</a>
@@ -139,10 +145,10 @@
 <section class="home">
 <div class="homeWrap">
 	<div class="homeOne">
-		<img src="IMG_3044 3.jpg">
+		<img src="IMG_3152.jpg">
 	</div>
 	<div class="homeTwo">
-		<h1>Hey, I'm Anyanarayan!</h1>
+		<h1 data-aos="zoom-in">Hey, I'm Anya!!</h1>
 		<p>I aspire to be a driving force behind a future where design is a powerful catalyst for positive change.</p>
 	</div></div>
 </section>
@@ -200,7 +206,7 @@
     position: relative; /* Required for positioning the ::after pseudo-element */
 	text-align:left;
 	
-			padding-top:50px;
+			padding-top:30px;
 			
 }
 
@@ -238,16 +244,22 @@
 		}
     </style>
 
-<section class="about">
+<section class="about" >
 <div class="aboutWrap">
-	<div class="aboutOne">
+	<div class="aboutOne" data-aos="zoom-in">
 		<img src="IMG_3160.jpg">
 	</div>
-	<div class="aboutTwo">
+	<div class="aboutTwo" data-aos="zoom-in">
 		<h1>About me</h1>
-		<p>My name is Anyanarayan. I am a creative and passionate graphic designer who is eager to learn and grow. By pushing
-		the boundaries of design, I love bringing innovative ideas to life through visual storytelling.
-		<br><br> Beautiful design has the power to captivate audiences and drive business growth. Specializing in creating stunning designs that transform businesses worldwide.</p>
+		<p>
+		I’m a user experience designer at Styl Fashion helping create an enterprise-level design application. I am a student at from UNC-Chapel Hill pursuing a B.S. in Information Science and Business Administration with a Human-Computer Interaction focus.
+<br><br>
+My passion for design started overseas, where I was exposed to different languages and cultures at a young age. I was fascinated by how design could transcend language barriers — though I didn’t think of it as eloquently back then! These experiences influenced me both professionally and personally as I focused my interests and areas of expertise at the intersection between humans and technology.
+<br><br>
+When I’m not working, you can find me cheering on the UNC basketball team (Go Heels!), hiking, and cooking Mediterranean food..
+		 
+		
+		</p>
 	</div></div>
 </section>
 
@@ -379,17 +391,17 @@
 
 <section class="contact">
 <div class="contactWrap">
-	<div class="contactOne">
-		<h1>Let’s work together.</h1>
-		<p>I’m always looking for new collaboration opportunities. Reach out<br></p> and let’s chat!</p>
+	<div class="contactOne" >
+		<h1 data-aos="zoom-in">Let’s work together.</h1>
+		<p data-aos="zoom-in">I’m always looking for new collaboration opportunities. Reach out<br> and let’s chat!</p>
 		
-		<div class="icons">
+		<div class="icons" data-aos="zoom-in">
 			<i class="fa fa-linkedin" aria-hidden="true"></i>
 			<i class="fa fa-twitter" aria-hidden="true"></i>
 			<i class="fa fa-envelope" aria-hidden="true"></i>
 		</div>
 	</div>
-	<div class="contactTwo">
+	<div class="contactTwo" data-aos="zoom-in">
 		 <form >
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required class="inputss">
@@ -408,5 +420,17 @@
 </section>
 
 
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>
+  
 </body>
 </html>
