@@ -350,6 +350,8 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	
+				margin-bottom:90px;
 			
 }
 .portfolioCard .portfolioOne{
@@ -361,6 +363,9 @@
 	width:80%;
 }
 
+.portfolioCard .portfolioOne .portfolioImgTwo{
+	width:55%;
+}
 .portfolioCard .portfolioTwo{
 	flex-basis:40%;
 	text-align:left;
