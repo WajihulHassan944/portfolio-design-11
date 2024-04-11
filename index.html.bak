@@ -8,128 +8,14 @@
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  <!-- aos css link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   <link rel="stylesheet" href="style.css">
    
-   <style>
-        body {
-            font-family: helvetica, sans-serif;
-			margin:0;
-			padding:0;
-			box-sizing:border-box;
-        }
-		nav{
-			display:flex;
-			justify-content:space-between;
-			align-items:center;
-			padding:0 50px;
-			
-		
-		}
-		.nav-buttons{
-			display:flex;
-			justify-content:center;
-			align-items:center;
-		}
-		
-		.nav-buttons a{
-			text-decoration:none;
-			margin-left:20px;
-		}
-		nav h1{
-			font-size:40px;
-			color:#000000;
-			font-weight:500;
-		}
-		.myContact{
-			background:#7877e6;
-			color:#fff;
-			border-radius:20px 0 20px 0;
-			padding:10px 20px;
-		}
-		
-		
-		
-		
-		
-		.home{
-			display:flex;
-			justify-content:center;
-			align-items:center;
-			width:100%;
-			margin-top:70px;
-		}
-		.homeWrap{
-			display:flex;
-			gap:50px;
-			justify-content:center;
-			align-items:center;
-			
-		}
-		.homeOne{
-			width:400px;
-			height:400px;
-		}
-		.homeOne img{
-			width:100%;
-			height:100%;
-			border-radius:50%;
-			object-fit:cover;
-			aspect-ratio:1;
-		}
-		.homeTwo{
-			padding:0 45px;
-			background:#eaf3f6;
-			border-radius:40px;
-			display:flex;
-			justify-content:center;
-			align-items:center;
-			flex-direction:column;
-			width:600px;
-			height:300px;
-		}
-.homeTwo h1 {
-    font-size: 60px;
-    color: #000000;
-    margin: 0;
-    margin-bottom: 50px;
-    font-weight: 500;
-    position: relative; /* Required for positioning the ::after pseudo-element */
-}
-
-.homeTwo h1::after {
-    content: "";
-    position: absolute;
-    bottom: -9px; /* Adjust this value to control the distance between the text and the border */
-    left: 0;
-    width: 100%;
-    height: 7.5px; /* Thickness of the border */
-    background-color: #7877e6; /* Color of the border */
-}
-
-.homeTwo h1::before {
-    content: "";
-    position: absolute;
-    bottom: -20px; /* Adjust this value to control the distance between the text and the border */
-    left: 0;
-    width: 100%;
-    height: 7.5px; /* Thickness of the border */
-    background-color: #7877e6; /* Color of the border */
-}
-
-		.homeTwo p{
-			color:#172e36;
-			font-size:30px;
-			letter-spacing:0.2px;
-			text-align:center;
-			margin:0;
-			font-weight:500;
-		}
-    </style>
-</head>
+   </head>
 <body>
 
 
 
-<nav data-aos="zoom-in">
+<nav data-aos="zoom-in" id="myBrandHeader">
 
 <h1>Anya Narayan</h1>
 <div class="nav-buttons">
@@ -149,100 +35,10 @@
 	</div>
 	<div class="homeTwo">
 		<h1 data-aos="zoom-in">Hey, I'm Anya!!</h1>
-		<p>I aspire to be a driving force behind a future where design is a powerful catalyst for positive change.</p>
+		<p>Raleigh-based designer passionate about creating inclusive and accessible digital spaces.</p>
 	</div></div>
 </section>
 
-
-<style>
-        
-		
-		
-		.about{
-			display:flex;
-			justify-content:center;
-			align-items:center;
-			width:100%;
-			margin-top:70px;
-			height:100vh;
-		}
-		.aboutWrap{
-			display:flex;
-			gap:20px;
-			justify-content:center;
-			align-items:center;
-			
-		}
-		.aboutOne{
-			width:500px;
-			height:500px;
-		}
-		
-		.aboutOne img{
-			width:100%;
-			height:100%;
-			border-radius:30px;
-			object-fit:cover;
-			aspect-ratio:1;
-		}
-		.aboutTwo{
-			padding:0 45px;
-			background:#eaf3f6;
-			border-radius:40px;
-			display:flex;
-			justify-content:flex-start;
-			align-items:left;
-			flex-direction:column;
-			text-align:left;
-			width:600px;
-			height:500px;
-		}
-.aboutTwo h1 {
-    font-size: 35px;
-    color: #000000;
-    margin: 0;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative; /* Required for positioning the ::after pseudo-element */
-	text-align:left;
-	
-			padding-top:30px;
-			
-}
-
-.aboutTwo h1::after {
-    content: "";
-    position: absolute;
-    bottom: 0; /* Adjust this value to control the distance between the text and the border */
-    left: 0;
-    width: 150px;
-    height: 4px; /* Thickness of the border */
-    background-color: #7877e6; /* Color of the border */
-}
-
-.aboutTwo h1::before {
-    content: "";
-    position: absolute;
-    bottom: -7px; /* Adjust this value to control the distance between the text and the border */
-    left: 0;
-    width: 150px;
-    height: 4px; /* Thickness of the border */
-    background-color: #7877e6; /* Color of the border */
-}
-
-		.aboutTwo p{
-			color:#172e36;
-			font-size:18px;
-			letter-spacing:0.2px;
-			text-align:center;
-			margin:0;
-			font-weight:400;
-			text-align:left;
-			line-height:1.4;
-			word-spacing:3px;
-			font-family:helvetica;
-		}
-    </style>
 
 <section class="about" >
 <div class="aboutWrap">
@@ -256,7 +52,7 @@
 <br><br>
 My passion for design started overseas, where I was exposed to different languages and cultures at a young age. I was fascinated by how design could transcend language barriers — though I didn’t think of it as eloquently back then! These experiences influenced me both professionally and personally as I focused my interests and areas of expertise at the intersection between humans and technology.
 <br><br>
-When I’m not working, you can find me cheering on the UNC basketball team (Go Heels!), hiking, and cooking Mediterranean food..
+When I’m not working, you can find me cheering on the UNC basketball team (Go Heels!), hiking, and cooking Mediterranean food.
 		 
 		
 		</p>
@@ -270,124 +66,39 @@ When I’m not working, you can find me cheering on the UNC basketball team (Go 
 
 
 
-
-
-
-
-
-
-
-
-
-
-<style>
-        
-		
-		
-		.contact{
-			display:flex;
-			justify-content:center;
-			align-items:center;
-			width:100%;
-			height:100vh;
-			background:#eaf3f6;
-		}
-		.contactWrap{
-			display:flex;
-			gap:20px;
-			justify-content:flex-start;
-			align-items:center;
-			width:100%;
-			
-		}
-		.contactOne{
-		flex-basis:45%;
-			display:flex;
-			justify-content:flex-start;
-			align-items:left;
-			flex-direction:column;
-			text-align:left;
-			padding-left:70px;
-			margin-top:-150px;
-		}
-.contactOne h1 {
-    font-size: 55px;
-    color: #000000;
-    margin: 0;
-    margin-bottom: 35px;
-    font-weight: 600;
-    position: relative; /* Required for positioning the ::after pseudo-element */
-	text-align:left;
+<section class="portfolio" >
+<div class="portfoliowrap">
+	<h1 class="portfolioTitle">Portfolio</h1>
+	<div class="portfolioCard">
 	
-			padding-top:50px;
-			
-}
+	<div class="portfolioOne" >
+		<img src="portfolioOneImg.png">
+	</div>
+	
+	<div class="portfolioTwo" >
+		<h1>Muse™ Meditation App Redesign</h1>
+		<h3>Graduate School Project @ UNC-Chapel Hill • Mobile UI/UX</h3>
+		<p>Re-thinking meditation in a digital age, with a focus on human-centered design principles and best practices.</p>
+		<a>View project</a>
+	</div>
+</div>
+	
+	
+	
+	
+	</div>
+</section>
 
-.contactOne h1::after {
-    content: "";
-    position: absolute;
-    bottom: -5px; /* Adjust this value to control the distance between the text and the border */
-    left: 0;
-    width: 500px;
-    height: 6px; /* Thickness of the border */
-    background-color: #7877e6; /* Color of the border */
-}
 
-.contactOne h1::before {
-    content: "";
-    position: absolute;
-    bottom: -14px; /* Adjust this value to control the distance between the text and the border */
-    left: 0;
-    width: 500px;
-    height: 6px; /* Thickness of the border */
-    background-color: #7877e6; /* Color of the border */
-}
 
-		.contactOne p{
-			color:#172e36;
-			font-size:18px;
-			letter-spacing:0.2px;
-			text-align:center;
-			margin:0;
-			font-weight:400;
-			text-align:left;
-			line-height:1.4;
-			word-spacing:3px;
-			font-family:helvetica;
-		}
-		.icons{
-			display:flex;
-			gap:10px;
-			margin-top:20px;
-		}
-		.icons i{
-			width:50px;
-			height:50px;
-			text-align:center;
-			background:black;
-			color:#fff;
-			display:flex;
-			justify-content:center;
-			align-items:center;
-			border-radius:50%;
-		}
-		.contactTwo{
-			flex-basis:55%;
-			padding-right:70px;
-		}
-		.contactTwo form{
-			display:flex;
-			flex-direction:column;
-			
-		}
-		label{
-			margin-bottom:10px;
-		}
-		.inputss{
-			padding:10px;
-			margin-bottom:20px;
-		}
-    </style>
+
+
+
+
+
+
+
+
 
 <section class="contact">
 <div class="contactWrap">
@@ -418,6 +129,44 @@ When I’m not working, you can find me cheering on the UNC basketball team (Go 
 		
 		</div>
 </section>
+
+
+
+
+
+
+
+
+
+<section class="footer" >
+<div class="footerwrap">
+		<h1>© 2024 Anya Narayan | LinkedIn</h1>
+			<h1>Made by Wajih ul Hassan. </h1>
+	
+</div>
+	
+</section>
+
+
+<script>
+window.addEventListener('scroll', function() {
+  var header = document.getElementById('myBrandHeader');
+  if (window.pageYOffset >= window.innerHeight) {
+    header.style.position = 'fixed';
+	header.style.zIndex = '999';
+	header.style.width = '93.4%';
+	header.style.height = '60px';
+	 header.style.top = '0';
+   } else {
+    header.style.position = 'static';
+	header.style.height = 'auto';
+	
+  
+  }
+});
+</script>
+
+
 
 
 <!-- aos js link  -->
