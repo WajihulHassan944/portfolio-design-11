@@ -49,10 +49,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187903971-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZjQwMz', true);gtag('config', 'UA-187903971-1');</script><!-- End of Squarespace Headers -->
     
       <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1712250249111-GP0H9WETKQK80BUL042M/static.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
   </head>
 
   <body
@@ -1899,10 +1899,6 @@
   }
 
 </style><div class="fluid-engine fe-644fd2ca9d9580f37522be7a"><div class="fe-block fe-block-644fd2caffbb188e14617ebc"><div class="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-644fd2caffbb188e14617ebc"><div class="sqs-block-content">
-
-<div class="sqs-html-content">
-  <h2 style="text-align:center;white-space:pre-wrap; font-family:helvetica;" ><strong>Project Overview</strong></h2><p class="sqsrte-large" style="white-space:pre-wrap;font-family:helvetica;">This was a semester-long, team-based project for my User Interface Design class I took as a graduate student. My team and I were tasked with evaluating a medical device and its mobile application experience.</p><p class="sqsrte-large" style="white-space:pre-wrap;font-family:helvetica;">The final report was published and featured on <a href="https://hsl.lib.unc.edu/wp-content/uploads/2019/01/Muse_mobileApp.pdf" target="_blank">UNC Health Sciences Library’s website.</a></p>
-</div>
 
 
 
@@ -6779,14 +6775,6 @@
   data-button-size="large"
   data-button-type="secondary"
 >
-  <a
-    href="#"
-    class="sqs-block-button-element--large sqs-button-element--secondary sqs-block-button-element"
-    target="_blank"
-	style=" font-family:helvetica;"
-  >
-    Read the final deliverable
-  </a>
 </div>
 </div></div></div></div></div>
     </div>
